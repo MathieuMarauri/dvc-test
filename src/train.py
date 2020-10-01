@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
 	# apprentissage d'un modèle
 	clf = RandomForestClassifier(
-		max_depth=1,
+		max_depth=20,
 		n_estimators=1,
 		max_features=1,
 		criterion='gini',
